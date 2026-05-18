@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+.card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 40px 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    text-align: center;
+    color: white;
+}
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+input, button {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+input {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    outline: none;
+}
+input::placeholder {
+    color: #ddd;
+}
+button {
+    background: #f39c12;
+    color: #1e1e2f;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #e67e22;
+}
+#statusMsg, #infoMsg {
+    margin: 10px 0;
+    font-size: 14px;
+}
+a {
+    color: #f39c12;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
