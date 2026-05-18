@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Captive Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <img src="assets/logo.svg" alt="Logo" class="logo">
+        <h2>Welcome to Captive Portal</h2>
+        <div id="statusMsg"></div>
+        <form id="loginForm">
+            <div id="authFields"></div>
+            <button type="submit"><i class="fas fa-sign-in-alt"></i> Connect</button>
+        </form>
+        <div id="infoMsg"></div>
+        <a href="logout.php" id="logoutLink" style="display:none;">Logout</a>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
